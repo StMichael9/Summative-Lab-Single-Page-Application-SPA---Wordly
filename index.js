@@ -7,3 +7,5 @@ const handleSearch = (event) => {
 
 const form = document.getElementById("search-form");
 form.addEventListener("submit", handleSearch);
+
+const fetchWord = async (word) => {};
